@@ -5,4 +5,4 @@
   "port": "9001",
   "enableLogs": "true"
 
- , "image": "heroku/nodejs"}
+, "buildpacks": [{"url": "heroku/nodejs"}]}
